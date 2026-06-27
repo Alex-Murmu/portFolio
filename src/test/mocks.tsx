@@ -1,7 +1,7 @@
 import React from 'react';
-
+import { vi } from 'vitest'; // Import vi from vitest
 export const mockNextImage = () => {
-  jest.mock('next/image', () => ({
+  vi.mock('next/image', () => ({
     __esModule: true,
     default: (props: React.ComponentProps<'img'>) => {
       const { fill, priority, ...rest } = props as any;
@@ -11,7 +11,7 @@ export const mockNextImage = () => {
 };
 
 export const mockNextViewTransitions = () => {
-  jest.mock('next-view-transitions', () => ({
+  vi.mock('next-view-transitions', () => ({
     Link: ({ href, children, className, ...props }: any) =>
       React.createElement('a', { href, className, ...props }, children),
   }));
