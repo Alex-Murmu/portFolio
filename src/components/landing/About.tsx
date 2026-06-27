@@ -12,7 +12,7 @@ export default function About() {
       <SectionHeading subHeading="About" heading="Me" />
       <div className="mt-8 flex flex-col gap-4 md:flex-row">
         <Image
-          src="/assets/logo.png"
+          src="/assets/person.png"
           alt="About"
           width={240}
           height={240}

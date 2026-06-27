@@ -31,7 +31,7 @@ export const heroConfig = {
   // Personal Information
   name: 'Alex Murmu',
   title: 'A Full Stack web developer || Software Engineer.',
-  avatar: '/assets/person.png',
+  avatar: '/assets/main2.jpg',
   displayAk:'Looking for Opportunities',
   displayAkDescription:"I don't Know what am I ?",
 
