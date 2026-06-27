@@ -1,0 +1,36 @@
+export const githubConfig = {
+  username: 'Alex-Murmu',
+  title: 'Contributions',
+  subtitle: 'GitHub contribution calendar',
+  apiUrl: 'https://github-contributions-api.deno.dev',
+  maxLevel: 4,
+  fontSize: 14,
+  loadingState: {
+    description: 'Loading contributions...',
+  },
+  errorState: {
+    title: 'Unable to load GitHub contributions',
+    description: 'Check your internet connection or visit my GitHub profile.',
+    buttonText: 'Visit GitHub',
+  },
+  theme: {
+    light: ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'],
+    dark: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'],
+  },
+  months: [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ],
+  weekdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  totalCountLabel: '{{count}} contributions in the last year',
+};
